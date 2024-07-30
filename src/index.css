@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EFF4FE;
+}
+.category-item, .right-side-actions, .category-container {
+    height: 100%;
+}
+
+.category-item{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 990px){
+    .searchBar-container{
+        height: fit-content !important;
+    }
+    .right-side-actions{
+        height: 55px !important;
+        width: 100% !important;
+    }
+}
